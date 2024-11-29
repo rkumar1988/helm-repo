@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   nginx-test:
   - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2024-11-29T16:21:27.707461+05:30"
+    description: Updating the version to 1.26.2
+    digest: c80951ecb12179d4a13057268983deac4ba2652011ae2459192f72482c4ae2d6
+    name: nginx-test
+    type: application
+    urls:
+    - Packages/nginx-test-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 1.17.0
-    created: "2024-11-29T16:10:26.634655+05:30"
+    created: "2024-11-29T16:21:27.700471+05:30"
     description: Updating the version to 1.27.3
     digest: 1f28dd240dc0ad3cc663f0d47c132109a94965cd125a17d527533c9ad61b3d8e
     name: nginx-test
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-29T16:10:26.628832+05:30"
+    created: "2024-11-29T16:21:27.700018+05:30"
     description: A Helm chart for Kubernetes
     digest: e01dc7c82531bfe03643aa06b1bfbe2448faa0fc107af3e8446ae3ec24877855
     name: nginx-test
@@ -21,4 +31,4 @@ entries:
     urls:
     - Packages/nginx-test-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-29T16:10:26.622043+05:30"
+generated: "2024-11-29T16:21:27.699028+05:30"
